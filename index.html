@@ -1,0 +1,643 @@
+<!doctype html>
+<html lang="en">
+ 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <script src="/cdn-cgi/apps/head/wAIvkjQdFEkH9AHVeUMJ13g2w_4.js"></script><link rel="stylesheet" href="https://colorlib.com/polygon/concept/assets/vendor/bootstrap/css/bootstrap.min.css">
+    <link href="https://colorlib.com/polygon/concept/assets/vendor/fonts/circular-std/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://colorlib.com/polygon/concept/assets/libs/css/style.css">
+    <link rel="stylesheet" href="https://colorlib.com/polygon/concept/assets/vendor/fonts/fontawesome/css/fontawesome-all.css">
+    <link rel="stylesheet" href="https://colorlib.com/polygon/concept/assets/vendor/charts/chartist-bundle/chartist.css">
+    <link rel="stylesheet" href="https://colorlib.com/polygon/concept/assets/vendor/charts/morris-bundle/morris.css">
+    <link rel="stylesheet" href="https://colorlib.com/polygon/concept/assets/vendor/fonts/material-design-iconic-font/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="https://colorlib.com/polygon/concept/assets/vendor/charts/c3charts/c3.css">
+    <link rel="stylesheet" href="https://colorlib.com/polygon/concept/assets/vendor/fonts/flag-icon-css/flag-icon.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script type="text/javascript">
+    window.setTimeout("waktu()", 1000);
+    function waktu() {
+        var waktu = new Date();
+        setTimeout("waktu()", 1000);
+        document.getElementById("jam").innerHTML = waktu.getHours();
+        document.getElementById("menit").innerHTML = waktu.getMinutes();
+        document.getElementById("detik").innerHTML = waktu.getSeconds();
+    }
+    </script>
+    <title>ZEKS API - DOCS</title>
+</head>
+
+<body>
+
+    <div class="dashboard-main-wrapper">
+
+        <div class="dashboard-header">
+            <nav class="navbar navbar-expand-lg bg-white fixed-top">
+                <a class="navbar-brand" href="index.html">zeks api</a>
+
+             </div>
+
+
+        <div class="nav-left-sidebar sidebar-dark">
+            <div class="menu-list">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="d-xl-none d-lg-none" style="font-style: bold; color: white">Menu</a>
+                                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav flex-column">
+                            <li class="nav-divider">
+                                FEATURES
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link active" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-1" aria-controls="submenu-1"><i class="bi fa-fw bi-download"></i>Downloader</a>
+                                <div id="submenu-1" class="collapse submenu" style="">
+                                    <ul class="nav flex-column">
+                                          <li class="nav-item">
+                                             <a class="nav-link" href="/api/ig?url=https://www.instagram.com/p/CIk47s2FMl4/&apikey=apivinz" target="_blank">Instagram</a>
+                                        </li>
+                                           <li class="nav-item">
+                                             <a class="nav-link" href="/api/soundcloud?apikey=apivinz&url=https://soundcloud.com/aviwkila/aviwkila-doa-untuk-kamu" target="_blank">Sound Cloud</a>
+                                        </li>
+                                           <li class="nav-item">
+                                             <a class="nav-link" href="/api/tiktok?url=https://www.tiktok.com/@bucinparkjimin7/video/6903432183768272129&apikey=apivinz" target="_blank">Tiktok</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/api/ytmp3?url=https://www.youtube.com/watch?v=tOMFR0nQt48&apikey=apivinz" target="_blank">Youtube Audio</a>
+                                        </li>
+                                          <li class="nav-item">
+                                             <a class="nav-link" href="/api/ytmp4?url=https://www.youtube.com/watch?v=tOMFR0nQt48&apikey=apivinz" target="_blank">Youtube Video</a>
+                                        </li>
+                                          <li class="nav-item">
+                                            <a class="nav-link" href="/api/ytmp3/2?url=https://www.youtube.com/watch?v=tOMFR0nQt48&apikey=apivinz" target="_blank">Youtube Audio v2</a>
+                                        </li>
+                                          <li class="nav-item">
+                                             <a class="nav-link" href="/api/ytmp4/2?url=https://www.youtube.com/watch?v=tOMFR0nQt48&apikey=apivinz" target="_blank">Youtube Video v2</a>
+                                        </li>
+                                            <li class="nav-item">
+                                            <a class="nav-link" href="/api/ytmp3?url=https://www.youtube.com/watch?v=tOMFR0nQt48&apikey=apivinz" target="_blank">Youtube Play Audio</a>
+                                        </li>
+                                          <li class="nav-item">
+                                             <a class="nav-link" href="/api/ytmp4?url=https://www.youtube.com/watch?v=tOMFR0nQt48&apikey=apivinz" target="_blank">Youtube Play Video</a>
+                                        </li>
+                                          <li class="nav-item">
+                                            <a class="nav-link" href="/api/ytmp3/2?url=https://www.youtube.com/watch?v=tOMFR0nQt48&apikey=apivinz" target="_blank">Youtube Play Audio v2</a>
+                                        </li>
+                                          <li class="nav-item">
+                                             <a class="nav-link" href="/api/ytmp4/2?url=https://www.youtube.com/watch?v=tOMFR0nQt48&apikey=apivinz" target="_blank">Youtube Play Video v2</a>
+                                        </li>
+                                          <li class="nav-item">
+                                             <a class="nav-link" href="/api/twitter?apikey=apivinz&url=https://twitter.com/MemesSays/status/1356413313408585728" target="_blank">Twitter</a>
+                                        </li> 
+                                           <li class="nav-item">
+                                             <a class="nav-link" href="/api/linesticker?link=https://store.line.me/stickershop/product/4877/id&apikey=apivinz" target="_blank">LineSticker</a>
+                                        </li>
+                                          <li class="nav-item">
+                                             <a class="nav-link" href="/api/mediafire?apikey=apivinz&url=http://www.mediafire.com/file/js0gr2nozcmk9yg/example.txt/file" target="_blank">MediaFire</a>
+                                        </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#Random" aria-controls="submenu-1"><i class="bi fa-fw bi-arrow-clockwise"></i>Random</a>
+                                <div id="Random" class="collapse submenu" style="">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/api/fml" target="_blank">FML</a>
+                                        </li>
+                                         <li class="nav-item">
+                                            <a class="nav-link" href="/api/randomquran" target="_blank">Quran</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/api/estetikpic?apikey=apivinz" target="_blank">Estetic Pic</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/api/memeindo?apikey=apivinz" target="_blank">Meme indo</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/api/darkjokes?apikey=apivinz" target="_blank">Dark Jokes</a>
+                                        </li>
+                                         <li class="nav-item">
+                                            <a class="nav-link" href="/api/nickepep?apikey=apivinz" target="_blank">Nick epep</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/api/quote?apikey=apivinz" target="_blank">Quote</a>
+                                        </li>
+                                         <li class="nav-item">
+                                            <a class="nav-link" href="/api/nekonime?apikey=apivinz" target="_blank">Nekonime</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/api/pantun" target="_blank">Pantun pakboy</a>
+                                        </li>
+                                                </ul>
+                                            </div>
+                                        </li>      
+                                          <li class="nav-item">
+                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#berita" aria-controls="submenu-1"><i class="bi fa-fw bi-newspaper"></i>News</a>
+                                <div id="berita" class="collapse submenu" style="">
+                                    <ul class="nav flex-column">
+                                         <li class="nav-item">
+                                            <a class="nav-link" href="/api/tribunews?apikey=apivinz" target="_blank">Tribun News</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/api/liputan6?apikey=apivinz" target="_blank">Liputan 6</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/api/foxnews?apikey=apivinz" target="_blank">Fox News</a>
+                                        </li>
+                                                </ul>
+                                            </div>
+                                        </li>    
+                                       <li class="nav-item">
+                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#imgmaker" aria-controls="submenu-1"><i class="bi fa-fw bi-card-image"></i>Image Maker</a>
+                                <div id="imgmaker" class="collapse submenu">
+                                    <ul class="nav flex-column">
+                                         <li class="nav-item">
+                                            <a class="nav-link" href="/api/qrencode?apikey=apivinz&text=ZeksApi" target="_blank">Qr Creator</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/api/barcode?apikey=apivinz&text=ZeksApi" target="_blank">Barcode</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/api/hartatahta?text=tes&apikey=apivinz" target="_blank">Harta tahta [MFarelS]</a>
+                                        </li>
+                                        <li class="nav-item">
+ <a class="nav-link collapse" href="#" data-toggle="collapse" aria-expanded="true" data-target="#submenu-1-2" aria-controls="submenu-1-2">Photo Oxy</a>
+<div id="submenu-1-2" class="submenu collapse" style="">
+        <ul class="nav flex-column">
+                        <li class="nav-item">
+                                            <a class="nav-link" href="/api/naruto?text=TEXT BANG&apikey=apivinz" target="_blank">Naruto</a>
+                                        </li>
+                                          <li class="nav-item">
+                                            <a class="nav-link" href="/api/bneon?apikey=apivinz&text=Mamank" target="_blank">Blue Neon</a>
+                                        </li>
+                                         <li class="nav-item">
+                                            <a class="nav-link" href="/api/matrix?apikey=apivinz&text=Mamank" target="_blank">Matrix</a>
+                                        </li>
+                                         <li class="nav-item">
+                                            <a class="nav-link" href="/api/breakwall?apikey=apivinz&text=Mamank" target="_blank">BreakWall</a>
+                                        </li>
+                                            <li class="nav-item">
+                                            <a class="nav-link" href="/api/gneon?apikey=apivinz&text=Mamank" target="_blank">Green Neon</a>
+                                        </li>
+                                              <li class="nav-item">
+                                            <a class="nav-link" href="/api/dropwater?apikey=apivinz&text=Maman" target="_blank">Drop Water</a>
+                                        </li>
+
+                                              <li class="nav-item">
+                                            <a class="nav-link" href="/api/wolflogo?apikey=apivinz&text1=ZEKS&text2=API" target="_blank">Wolf Logo</a>
+                                        </li>
+                                                <li class="nav-item">
+                                            <a class="nav-link" href="/api/wolflogo?apikey=apivinz&text1=ZEKS&text2=API" target="_blank">Wolf Logo</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/api/flowertext?text=TEXT BANG&apikey=apivinz" target="_blank">Flower</a>
+                                        </li>
+                                         <li class="nav-item">
+                                            <a class="nav-link" href="/api/crosslogo?text=TEXT BANG&apikey=apivinz" target="_blank">Cross Fire</a>
+                                        </li>
+                                         <li class="nav-item">
+                                            <a class="nav-link" href="/api/silktext?text=TEXT BANG&apikey=apivinz" target="_blank">Silk Text</a>
+                                        </li>
+                                         <li class="nav-item">
+                                            <a class="nav-link" href="/api/flametext?text=TEXT BANG&apikey=apivinz" target="_blank">Flame Text</a>
+                                        </li>
+                                         <li class="nav-item">
+                                            <a class="nav-link" href="/api/glowtext?text=TEXT BANG&apikey=apivinz" target="_blank">Glowstone</a>
+                                        </li>
+                                         <li class="nav-item">
+                                            <a class="nav-link" href="/api/smoketext?text=TEXT BANG&apikey=apivinz" target="_blank">Smoke</a>
+                                        </li>
+                                         <li class="nav-item">
+                                            <a class="nav-link" href="/api/pubglogo?text1=TEXT1 BANG&text2=TEXT2 BANG&apikey=apivinz" target="_blank">Pubeg</a>
+                                        </li>
+                                         <li class="nav-item">
+                                            <a class="nav-link" href="/api/skytext?text=TEXT BANG&apikey=apivinz" target="_blank">Sky Image</a>
+                                        </li>
+                                         <li class="nav-item">
+                                            <a class="nav-link" href="/api/cslogo?text=TEXT BANG&apikey=apivinz" target="_blank">Cs Logo</a>
+                                        </li>
+</ul>
+</div>
+</li>                                       
+                                                                                <li class="nav-item">
+ <a class="nav-link collapse" href="#" data-toggle="collapse" aria-expanded="true" data-target="#submenu-2-2" aria-controls="submenu-2-2">PhotoFunia</a>
+<div id="submenu-2-2" class="submenu collapse" style="">
+        <ul class="nav flex-column">
+                        <li class="nav-item">
+                                            <a class="nav-link" href="/api/lithgtext?text=TESTER&apikey=apivinz" target="_blank">Light Writing</a>
+                                        </li>
+                                         <li class="nav-item">
+                                            <a class="nav-link" href="/api/retro?text1=TEXT1&text2=TEXT2&text3=TEXT3&apikey=apivinz" target="_blank">Rerto Text</a>
+                                        </li>
+                                         <li class="nav-item">
+                                            <a class="nav-link" href="/api/crismes?text=Ya gitu lah pokokny&apikey=apivinz" target="_blank">Chrismest Writing</a>
+                                        </li>
+                                          <li class="nav-item">
+                                            <a class="nav-link" href="/api/snowwrite?text1=Ini contoh&text2=Okey&apikey=apivinz" target="_blank">Snow Wrinting</a>
+                                        </li>
+                                          <li class="nav-item">
+                                            <a class="nav-link" href="/api/watercolour?text1=Ini contoh&text2=Okey&apikey=apivinz" target="_blank">Water Color</a>
+                                        </li>
+                                            <li class="nav-item">
+                                            <a class="nav-link" href="/api/tfire?text=happy new year&apikey=apivinz" target="_blank">Firework text</a>
+                                        </li>
+                                              <li class="nav-item">
+                                            <a class="nav-link" href="/api/tfire?text=happy new year&apikey=apivinz" target="_blank">Firework text</a>
+                                        </li>
+                                                <li class="nav-item">
+                                            <a class="nav-link" href="/api/sandw?apikey=apivinz&text=ZEKSAPI" target="_blank">Sand Writing</a>
+                                        </li>
+                        </ul>
+        </div>
+    </li>     
+          <li class="nav-item">
+ <a class="nav-link collapse" href="#" data-toggle="collapse" aria-expanded="true" data-target="#emphoto" aria-controls="emphoto">Ephoto</a>
+<div id="emphoto" class="submenu collapse" style="">
+        <ul class="nav flex-column">
+                        <li class="nav-item">
+                                            <a class="nav-link" href="/api/tpantai?text=Ini contoh&apikey=apivinz" target="_blank">Nulis Pantai</a>
+                                        </li>  
+                                         <li class="nav-item">
+                                            <a class="nav-link" href="/api/epep?text=VINZ&apikey=apivinz" target="_blank">Logo Epep</a>
+                                        </li> 
+                                           <li class="nav-item">
+                                            <a class="nav-link" href="/api/gplaybutton?text=vinz gaming&apikey=apivinz" target="_blank">GoldPlay Button</a>
+                                        </li>
+                                             <li class="nav-item">
+                                            <a class="nav-link" href="/api/splaybutton?text=vinz gaming&apikey=apivinz" target="_blank">Silver Play button</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/api/splaybutton?text=vinz gaming&apikey=apivinz" target="_blank">Silver Play button</a>
+                                        </li>
+                        </ul>
+        </div>
+    </li>     
+
+                                                                                <li class="nav-item">
+ <a class="nav-link collapse" href="#" data-toggle="collapse" aria-expanded="true" data-target="#textpro" aria-controls="textpro">TextPro</a>
+<div id="textpro" class="submenu collapse" style="">
+        <ul class="nav flex-column">
+                        <li class="nav-item">
+                                            <a class="nav-link" href="/api/text3dbox?apikey=apivinz&text=Zeks Api" target="_blank">Text 3D</a>
+                                        </li>
+                                         <li class="nav-item">
+                                            <a class="nav-link" href="/api/logoaveng?text1=TES&text2=BOI&apikey=apivinz" target="_blank">Logo Avengers</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/api/logoaveng?text1=TES&text2=BOI&apikey=apivinz" target="_blank">Logo Avengers</a>
+                                        </li> 
+                                         <li class="nav-item">
+                                            <a class="nav-link" href="/api/text3d?text=VINZ&apikey=apivinz" target="_blank">Text 3D 2</a>
+                                        </li> 
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/api/phlogo?text1=VINZ&text2=HUB&apikey=apivinz" target="_blank">Ph Logo</a>
+                                        </li>
+                                         <li class="nav-item">
+                                            <a class="nav-link" href="/api/logobp?text=VINZ&apikey=apivinz" target="_blank">BlackPink Logo</a>
+                                        </li>
+                                                                                 <li class="nav-item">
+                                            <a class="nav-link" href="/api/marvellogo?text1=MARVEL&text2=STUDIO&apikey=apivinz" target="_blank">Logo Marvel</a>
+                                        </li>
+                                          <li class="nav-item">
+                                            <a class="nav-link" href="/api/leavest?text=Ini contoh&apikey=apivinz" target="_blank">Leaves Text</a>
+                                        </li>
+                                          <li class="nav-item">
+                                            <a class="nav-link" href="/api/thundertext?text=VINZ&apikey=apivinz" target="_blank">Thunder Text</a>
+                                        </li>
+                                         <li class="nav-item">
+                                            <a class="nav-link" href="/api/tlight?text=VINZ&apikey=apivinz" target="_blank">Light Text</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/api/gtext?text1=VINZ&text2=GANZ&apikey=apivinz" target="_blank">Glitch Text</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/api/gtext?text1=VINZ&text2=GANZ&apikey=apivinz" target="_blank">Glitch Text</a>
+                                        </li>
+                        </ul>
+        </div>
+    </li>     
+                                         <li class="nav-item">
+                                            <a class="nav-link" href="/api/emoji-image?apikey=apivinz&emoji=%F0%9F%98%83" target="_blank">Emoji To Png</a>
+                                        </li>
+                                         <li class="nav-item">
+                                            <a class="nav-link" href="/api/slap?apikey=apivinz&img1=https://1.bp.blogspot.com/-x8KhcOBG-yw/XiU4pi1yWVI/AAAAAAAADBA/gK8tsLyc1lQ808A348IKzDCjf6fUBKONwCLcBGAsYHQ/s1600/cara%2Bbuat%2Bfoto%2Bprofil%2Bdi%2Bwhatsapp%2Bmenjadi%2Bunik.jpg&img2=https://img.tek.id/img/content/2019/06/01/16833/whatsapp-tak-lagi-bisa-simpan-foto-profil-C7fSwKVQ2i.jpg" target="_blank">Slap Image Maker</a>
+                                        </li>
+                                         <li class="nav-item">
+                                            <a class="nav-link" href="/api/phub?apikey=apivinz&img=https://1.bp.blogspot.com/-x8KhcOBG-yw/XiU4pi1yWVI/AAAAAAAADBA/gK8tsLyc1lQ808A348IKzDCjf6fUBKONwCLcBGAsYHQ/s1600/cara%2Bbuat%2Bfoto%2Bprofil%2Bdi%2Bwhatsapp%2Bmenjadi%2Bunik.jpg&username=sksksksksk&msg=Mantap%20buat%20bacol" target="_blank">Phub Comment</a>
+                                        </li>
+
+                                                </ul>
+                                            </div>
+                                        </li>   
+                                                <li class="nav-item">
+                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#nulis" aria-controls="submenu-1"><i class="bi fa-fw bi-book-half"></i>Nulis</a>
+                                <div id="nulis" class="collapse submenu">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/api/magernulis?nama=NAMAMU&kelas=KELASMU&text=ANY&tinta=1" target="_blank">Mager Nulis [MfarelS]</a>
+                                        </li>
+                                         <li class="nav-item">
+                                            <a class="nav-link" href="/api/nulis?text=nulis test&apikey=apivinz" target="_blank">Nulis</a>
+                                        </li>
+                                                </ul>
+                                            </div>
+                                        </li>  
+                                           <li class="nav-item">
+                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#searching" aria-controls="searching"><i class="bi fa-fw bi-search"></i>Searching</a>
+                                <div id="searching" class="collapse submenu" style="">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/api/sgplay?apikey=apivinz&q=Game%20burik" target="_blank">Google Play</a>
+                                        </li>
+                                         <li class="nav-item">
+                                            <a class="nav-link" href="/api/searchsticker?apikey=apivinz&q=pentol" target="_blank">Search Sticker</a>
+                                        </li> 
+                                         <li class="nav-item">
+                                            <a class="nav-link" href="/api/wiki?q=online&apikey=apivinz" target="_blank">Wikipedia</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/api/film/2?q=doraemon&apikey=apivinz" target="_blank">Search Film</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/api/bacakomik?apikey=apivinz&q=one%20piece" target="_blank">Bacakomik search</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/api/happymod?apikey=apivinz&q=whatsapp" target="_blank">Happy Mod</a>
+                                        </li>
+                                         <li class="nav-item">
+                                            <a class="nav-link" href="/api/iguser?apikey=apivinz&q=gustixa" target="_blank">Instagram user</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/api/film?q=dilan&apikey=apivinz" target="_blank">Search Film V2</a>
+                                        </li>
+                                         <li class="nav-item">
+                                            <a class="nav-link" href="/api/apkpure?q=youtube&apikey=apivinz" target="_blank">Apk Pure</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/api/kbbi?q=status&apikey=apivinz" target="_blank">KBBI Search</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/api/neonimesearch?q=danmachi&apikey=apivinz" target="_blank">Neonime</a>
+                                        </li> 
+                                          <li class="nav-item">
+                                            <a class="nav-link" href="/api/yts?q=game+burik&apikey=apivinz" target="_blank">youtube Search</a>
+                                        </li>
+                                                </ul>
+                                            </div>
+                                        </li>      
+                                <li class="nav-item">
+                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#kuiz" aria-controls="kuiz"><i class="bi fa-fw bi-card-checklist"></i>Kuis</a>
+                                <div id="kuiz" class="collapse submenu" style="">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/api/tebakgambar?apikey=apivinz" target="_blank">Tebak gambar</a>
+                                        </li>
+                                                </ul>
+                                            </div>
+                                        </li>     
+                                          <li class="nav-item">
+                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#notlist" aria-controls="notlist"><i class="bi fa-fw bi-card-checklist"></i>Other</a>
+                                <div id="notlist" class="collapse submenu" style="">
+                                    <ul class="nav flex-column">
+                                         <li class="nav-item">
+                                            <a class="nav-link" href="/api/simi?apikey=apivinz&text=P" target="_blank">SIM SIMI</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/api/sid-shortener?apikey=apivinz&url=https://api.zeks.xyz" target="_blank">S.id Shortener</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/api/qrdecode?apikey=apivinz&image=https://api.qrserver.com/v1/create-qr-code/?data=zeksApi&size=220x220&margin=0" target="_blank">Qr Reader</a>
+                                        </li>
+                                         <li class="nav-item">
+                                            <a class="nav-link" href="/api/quran?no=1&apikey=apivinz" target="_blank">Surah Quran</a>
+                                        </li>
+                                         <li class="nav-item">
+                                            <a class="nav-link" href="/api/jadwaltv?channel=antv&apikey=apivinz" target="_blank">Jadwal Tv</a>
+                                        </li>   
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/api/urlshort?url=https://zeks.xyz&apikey=apivinz" target="_blank">Url Shortener</a>
+                                        </li>
+                                                </ul>
+                                            </div>
+                                        </li>   
+                                        <li class="nav-divider">
+Contact Me
+</li>                                         <li class="nav-item">
+                                            <a class="nav-link" href="https://instagram.com/benirabbany" target="_blank">Instagram</a>
+                                        </li>
+                                                 <li class="nav-item">
+                                            <a class="nav-link" href="http://wa.me/6283110461791" >Whatsapp</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="dashboard-wrapper">
+            <div class="dashboard-ecommerce">
+                <div class="container-fluid dashboard-content">
+
+                                  <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="row align-items-center">
+                                      <div class="col mr-2">
+                                    <div class="text-xs font-weight-bold text-uppercase mb-1">Time</div>
+                <a id="jam"style="font-size: 20px"></a><a style="font-size: 20px"> :</a>
+            <a id="menit"style="font-size: 20px"style="font-size: 20px"></a><a style="font-size: 20px"> :</a>
+        <a id="detik" style="font-size: 20px"></a>
+    </div>
+    <div class="col-auto">
+                                            <i class="bi bi-clock-fill fa-2x text-primary"></i>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+ 
+        </div>
+                        <div class="row">
+<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+<div class="card border-3 border-top border-top-primary">
+<div class="card-body">
+<h5 class="text-muted">IP CONNECTED</h5>
+<div class="metric-value d-inline-block">
+<h1 class="mb-1" id="connectedip">1245</h1>
+</div>
+<div class="metric-label d-inline-block float-right text-danger font-weight-bold">
+<span class="icon-circle-small icon-box-xs text-danger "><i class="bi bi-reception-4 fa-2x text-primary"></i>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+<div class="card border-3 border-top border-top-primary">
+<div class="card-body">
+<h5 class="text-muted">Total Hit</h5>
+<div class="metric-value d-inline-block">
+<h1 class="mb-1" id="totalhit">13000</h1>
+</div>
+<div class="metric-label d-inline-block float-right text-danger font-weight-bold">
+<span class="icon-circle-small icon-box-xs text-danger "><i class="bi bi-arrow-up fa-2x text-primary"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+                         <div class="card-body">
+                        <div class="formm">
+<h1>CEK APIKEY</h1>
+<p class="status" style="color: gray; font-size: 20px;"></p>
+<input class="form-control" id="ampikey" type="text"  placeholder="Masukkan Apikey" class="ampikey">
+<div class="space"></div>
+<button type="submit" id="sbm" class="btn btn-primary" onclick="sendata()">Submit</button>
+</div>
+</div>
+                        </div>
+    <div class="container-fluid dashboard-content">
+</div>
+<style>
+.formm {
+        /*margin: 130px auto;*/
+        padding: 5%;
+        border: 1px solid #ccc;
+        height: 30%;
+        width: 100%;
+    }
+
+.hideop {
+display: none;
+}
+input {
+    width: 276px;
+    height: 48px;
+    border: 1px solid rgba(255,255,255,.4);
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; 
+    display:block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:18px;
+    color:#fff;
+    padding-left:20px;
+    padding-right:20px;
+    margin-bottom:20px;
+}
+
+input.ampikey {
+      background: rgba(255, 255, 255, 0.4) url(http://luismruiz.com/img/gemicon_name.png) no-repeat scroll 16px 16px; 
+      padding-left:center;
+}
+</style>
+        <div class="card h-50 mb-4">
+                        <div class="card-body">
+                            <div class="row align-items-center">
+                                <div class="col mr-2">
+                                    <div class="text-md-left font-weight-bold mb-2 text-primary">For Your Information</div>
+                                    <div class="text-sm-left mb-0 font-weight-bold">Api Ini dibuat untuk mengisi waktu luang saya :)
+                                    </div>
+                                </div>
+                                <div class="col-auto">
+                                    <i class="fas fa-quote-right fa-2x text-primary"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    <script>
+const textnya = document.querySelector('.status');
+var apikey = document.getElementById("ampikey")
+apikey.addEventListener("keyup", function(event) {
+if (event.key == 'Enter'){
+    event.preventDefault();
+    document.getElementById("sbm").click();
+    }
+});
+window.setTimeout("gethit()", 1000);  
+function gethit(){
+    setTimeout("gethit()", 1000);
+            var xhr = new XMLHttpRequest();
+            var url = 'https://api.zeks.xyz/gethit';
+            xhr.onloadend = function(){
+           data = JSON.parse(this.responseText);
+document.getElementById("totalhit").textContent = data.totalhit
+document.getElementById("connectedip").textContent = data.connectip.length
+            };
+            xhr.open("GET", url, true);
+            xhr.send();
+}
+function sendata(){
+if (apikey.value == ''){
+         swal("Masukkan apikey!", "", "error");
+} else {
+            var xhr = new XMLHttpRequest();
+            var url = `https://api.zeks.xyz/api/cekkey?apikey=${apikey.value}`;
+            xhr.onloadend = function(){
+            try{    
+            data = JSON.parse(this.responseText);
+            textnya.textContent = 'Limit Apikey anda adalah '+ data.limit_key
+            swal("Apikey valid!", 'Limit Apikey anda adalah '+ data.limit_key, "success");
+            } catch(e) {
+            textnya.textContent = ''
+            swal("Apikey Tidak Valid!", "", "error");
+            }
+            };
+            xhr.open("GET", url, true);
+            xhr.send();
+}
+}
+        
+</script>    
+<script>
+swal("","Fixed Magernulis")
+/*var _0x41fc=['send','GET','335TzQiaQ','2ajoIHI','2518SXnFXa','1401zAKxBx','210983OVJHRC','2aGthZr','https://api.zeks.xyz/','5575hLUXzD','751xEyTKI','690237TzJWJQ','489Mckwsx','reqfitur','194755MOvRkr','Req\x20fitur\x20?,\x20Spam\x20gw\x20banned','159eBbggP'];var _0x546a=function(_0xecc145,_0x1f01a9){_0xecc145=_0xecc145-0x130;var _0x41fcbd=_0x41fc[_0xecc145];return _0x41fcbd;};var _0x39e1ad=_0x546a;(function(_0x219970,_0x350a0c){var _0x341420=_0x546a;while(!![]){try{var _0xbb8e4c=-parseInt(_0x341420(0x139))*parseInt(_0x341420(0x13c))+-parseInt(_0x341420(0x130))+parseInt(_0x341420(0x133))+-parseInt(_0x341420(0x13f))*-parseInt(_0x341420(0x13d))+parseInt(_0x341420(0x131))*-parseInt(_0x341420(0x13b))+parseInt(_0x341420(0x135))*parseInt(_0x341420(0x138))+parseInt(_0x341420(0x13a))*parseInt(_0x341420(0x140));if(_0xbb8e4c===_0x350a0c)break;else _0x219970['push'](_0x219970['shift']());}catch(_0x5d6145){_0x219970['push'](_0x219970['shift']());}}}(_0x41fc,0x56280));var quest=prompt(_0x39e1ad(0x134)),xm=new XMLHttpRequest(),dadadwd='t=',dadasdinasd='?',dsaddx=_0x39e1ad(0x132),adadad=[dadadwd],dasad=[dadasdinasd,adadad[0x0],dsaddx],ur=_0x39e1ad(0x13e)+dasad[0x2]+dasad[0x0];xm['open'](_0x39e1ad(0x137),ur+dasad[0x1]+quest,!![]);quest!=null&&xm[_0x39e1ad(0x136)]();*/
+</script>
+    <script src="https://colorlib.com/polygon/concept/assets/vendor/jquery/jquery-3.3.1.min.js"></script>
+    <!-- bootstap bundle js -->
+    <script src="https://colorlib.com/polygon/concept/assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+    <!-- slimscroll js -->
+    <script src="https://colorlib.com/polygon/concept/assets/vendor/slimscroll/jquery.slimscroll.js"></script>
+    <!-- main js -->
+    <script src="https://colorlib.com/polygon/concept/assets/libs/js/main-js.js"></script>
+    <!-- chart chartist js -->
+    <script src="https://colorlib.com/polygon/concept/assets/vendor/charts/chartist-bundle/chartist.min.js"></script>
+    <!-- sparkline js -->
+    <script src="https://colorlib.com/polygon/concept/assets/vendor/charts/sparkline/jquery.sparkline.js"></script>
+    <!-- morris js -->
+    <script src="https://colorlib.com/polygon/concept/assets/vendor/charts/morris-bundle/raphael.min.js"></script>
+    <script src="https://colorlib.com/polygon/concept/assets/vendor/charts/morris-bundle/morris.js"></script>
+    <!-- chart c3 js -->
+    <script src="https://colorlib.com/polygon/concept/assets/vendor/charts/c3charts/c3.min.js"></script>
+    <script src="https://colorlib.com/polygon/concept/assets/vendor/charts/c3charts/d3-5.4.0.min.js"></script>
+    <script src="https://colorlib.com/polygon/concept/assets/vendor/charts/c3charts/C3chartjs.js"></script>
+    <script src="https://colorlib.com/polygon/concept/assets/libs/js/dashboard-ecommerce.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script>
+    <style type="text/css">
+        .wrapper {
+  min-height: 100%;
+
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -50px;
+}
+    </style>
+</body>
+ 
+</html>

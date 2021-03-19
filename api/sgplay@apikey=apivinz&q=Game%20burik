@@ -1,0 +1,185 @@
+{
+  "status": true,
+  "result": [
+    {
+      "title": "Garena Free Fire - The Cobra",
+      "appid": "com.dts.freefireth",
+      "developer": "GARENA INTERNATIONAL I PRIVATE LIMITED",
+      "price": "FREE",
+      "rating": "4.3",
+      "url": "https://play.google.com/store/apps/details?id=com.dts.freefireth",
+      "thumb": "https://play-lh.googleusercontent.com/p5p3XOkGw84KJM1c_SZpu-aJUgHLM82MkMQ2ZvVzFyMwQsb0wePF_fLsJEDtEltQ5PA"
+    },
+    {
+      "title": "Mobile Legends: Bang Bang",
+      "appid": "com.mobile.legends",
+      "developer": "Moonton",
+      "price": "FREE",
+      "rating": "4.1",
+      "url": "https://play.google.com/store/apps/details?id=com.mobile.legends",
+      "thumb": "https://play-lh.googleusercontent.com/28ZrB-IdK-gKKTmBMgiOspBod0gWmO8L7UDZdtKxSOW90TQNIHcmEdMz4Eza6lKG9JM"
+    },
+    {
+      "title": "Illusion",
+      "appid": "com.dmitsoft.illusion",
+      "developer": "Dmitsoft",
+      "price": "FREE",
+      "rating": "4.1",
+      "url": "https://play.google.com/store/apps/details?id=com.dmitsoft.illusion",
+      "thumb": "https://play-lh.googleusercontent.com/9MgcBbT0E6fnxB2epHe7Fl1AYdNWnhJ3HAUJM9PC_V76weiBCBFzFF2F1OUx39CezA"
+    },
+    {
+      "title": "PUBG MOBILE HUNDRED RHYTHMS",
+      "appid": "com.tencent.ig",
+      "developer": "Tencent Games",
+      "price": "FREE",
+      "rating": "4.2",
+      "url": "https://play.google.com/store/apps/details?id=com.tencent.ig",
+      "thumb": "https://play-lh.googleusercontent.com/JRd05pyBH41qjgsJuWduRJpDeZG0Hnb0yjf2nWqO7VaGKL10-G5UIygxED-WNOc3pg"
+    },
+    {
+      "title": "Kiss Kiss: Spin the Bottle for Chatting & Fun",
+      "appid": "com.topface.kisskiss",
+      "developer": "PLAYNETA LIMITED",
+      "price": "FREE",
+      "rating": "4.3",
+      "url": "https://play.google.com/store/apps/details?id=com.topface.kisskiss",
+      "thumb": "https://play-lh.googleusercontent.com/VledtWU21cgQ9L7-8t57IganX3uXAHWV73IeYiD9MgUnUrNy16MiJ7_VSQmFIhQnn6z3"
+    },
+    {
+      "title": "NARUTO X BORUTO NINJA VOLTAGE",
+      "appid": "com.bandainamcoent.ninjavoltage_app",
+      "developer": "BANDAI NAMCO Entertainment Inc.",
+      "price": "FREE",
+      "rating": "4.1",
+      "url": "https://play.google.com/store/apps/details?id=com.bandainamcoent.ninjavoltage_app",
+      "thumb": "https://play-lh.googleusercontent.com/kdVmKZQjphHVYGOlp9bjSIz-30-VkW26byn4pIb-7RZdb6Bv_44IQHS49x9fOr2-eg"
+    },
+    {
+      "title": "Heroes Strike Offline - MOBA & Battle Royale",
+      "appid": "com.wolffun.herostrike.offline",
+      "developer": "WolfFun",
+      "price": "FREE",
+      "rating": "4.4",
+      "url": "https://play.google.com/store/apps/details?id=com.wolffun.herostrike.offline",
+      "thumb": "https://play-lh.googleusercontent.com/-IPEr46atHe18-DAJGYrUwW2Hh13IZfxy8Fct_HAgiW3FF4KMYByCQIsF4PHBrb36PA"
+    },
+    {
+      "title": "Growtopia",
+      "appid": "com.rtsoft.growtopia",
+      "developer": "Ubisoft Entertainment",
+      "price": "FREE",
+      "rating": "3.5",
+      "url": "https://play.google.com/store/apps/details?id=com.rtsoft.growtopia",
+      "thumb": "https://play-lh.googleusercontent.com/DX0TB8AGEzq2KLSU99hbMMkDTGnDvwmiO8LxuxC0HG8-ylNyGKuSlYTY1nZpMXnSd5k"
+    },
+    {
+      "title": "Ghosts VS Villagers",
+      "appid": "com.warganetlife.wargavshantu",
+      "developer": "WargaNetLife",
+      "price": "FREE",
+      "rating": "4.6",
+      "url": "https://play.google.com/store/apps/details?id=com.warganetlife.wargavshantu",
+      "thumb": "https://play-lh.googleusercontent.com/BWg-rUa6spjQhB9fofuKEEK1c7UB06FnmFiR3OgFKeKsCNezTREAjuT3iSlleXYfcw"
+    },
+    {
+      "title": "Among Us",
+      "appid": "com.innersloth.spacemafia",
+      "developer": "Innersloth LLC",
+      "price": "FREE",
+      "rating": "3.9",
+      "url": "https://play.google.com/store/apps/details?id=com.innersloth.spacemafia",
+      "thumb": "https://play-lh.googleusercontent.com/VHB9bVB8cTcnqwnu0nJqKYbiutRclnbGxTpwnayKB4vMxZj8pk1220Rg-6oQ68DwAkqO"
+    },
+    {
+      "title": "Thumb Fighter 👍",
+      "appid": "air.tv.avix.thumbfighter",
+      "developer": "AVIX",
+      "price": "FREE",
+      "rating": "4.1",
+      "url": "https://play.google.com/store/apps/details?id=air.tv.avix.thumbfighter",
+      "thumb": "https://play-lh.googleusercontent.com/XNCckRCKW9VoGYAmK2o_zXJy6kiI5pNYPzJv7Gid5-cf4D-Q5cKroxLeb4TYpOrNu3f3"
+    },
+    {
+      "title": "Kerang Ajaib",
+      "appid": "com.ignatiusalbert.kerangajaibmaster",
+      "developer": "Ignatius Albert Shan Handoko",
+      "price": "FREE",
+      "rating": "3.2",
+      "url": "https://play.google.com/store/apps/details?id=com.ignatiusalbert.kerangajaibmaster",
+      "thumb": "https://play-lh.googleusercontent.com/qLghDfNN6Eklqrk27dXHAxP7e5igs8Icpw5OkkT-oZqbgbZe9rKAN8wj1PIDeoUavQs"
+    },
+    {
+      "title": "Guide For Free╦̵̵̿╤──Fire Unofficial Tips",
+      "appid": "com.freeinstructions.firediamtools",
+      "developer": "Free OneSoft  Games  Studios",
+      "price": "FREE",
+      "rating": "4.3",
+      "url": "https://play.google.com/store/apps/details?id=com.freeinstructions.firediamtools",
+      "thumb": "https://play-lh.googleusercontent.com/3JAmbQt-wEMvUWgwI0PXVm29sjq2AzMjKyNvQBCZAciWqzyZz1nuRdzH6Cix2JKh17Y"
+    },
+    {
+      "title": "BMX Boy",
+      "appid": "com.game.BMX_Boy",
+      "developer": "Runner  Games",
+      "price": "FREE",
+      "rating": "4.3",
+      "url": "https://play.google.com/store/apps/details?id=com.game.BMX_Boy",
+      "thumb": "https://play-lh.googleusercontent.com/-5HXieaVS4TuV1EJzQXKo-fwS5GGSYPZFB6zyYloD6LMhfDW2OauFblGPN-lgnmLLl4_"
+    },
+    {
+      "title": "Guard me, Sherlock! - otome game",
+      "appid": "com.nttsolmare.game.android.shef",
+      "developer": "NTT Solmare Corp.",
+      "price": "FREE",
+      "rating": "3.5",
+      "url": "https://play.google.com/store/apps/details?id=com.nttsolmare.game.android.shef",
+      "thumb": "https://play-lh.googleusercontent.com/GNVDqT7YI9ytH7iNyHQSiNaNtCZ3MiO8h34uf3yv6ZWO383FUAA-HcBM3oy2cEpT-w"
+    },
+    {
+      "title": "Mobile Legends: Adventure",
+      "appid": "com.moonton.mobilehero",
+      "developer": "Moonton",
+      "price": "FREE",
+      "rating": "4.6",
+      "url": "https://play.google.com/store/apps/details?id=com.moonton.mobilehero",
+      "thumb": "https://play-lh.googleusercontent.com/0SCI8i6tqM670aeUhRqHJgb4DiuPKz2FQfYT6845XhvSlV547ndgxCfklPyutPnyMgE"
+    },
+    {
+      "title": "Squad Cover Free Fire: 3d Team Shooter",
+      "appid": "com.shootinggamesstudio.SquadCoverFreeFire",
+      "developer": "Shooting Games Studio SGS.",
+      "price": "FREE",
+      "rating": "3.5",
+      "url": "https://play.google.com/store/apps/details?id=com.shootinggamesstudio.SquadCoverFreeFire",
+      "thumb": "https://play-lh.googleusercontent.com/51se7i2YeT5BiOoH6A6mkyKt9pdU-xBaBOolf-2Xa3Bq6lZlYsj3-f1U5LV9OgNSmvo"
+    },
+    {
+      "title": "Story Jar - Otome game / dating sim #spark joy",
+      "appid": "com.nttsolmare.game.android.anime",
+      "developer": "NTT Solmare Corp.",
+      "price": "FREE",
+      "rating": "3.9",
+      "url": "https://play.google.com/store/apps/details?id=com.nttsolmare.game.android.anime",
+      "thumb": "https://play-lh.googleusercontent.com/zKcuJtOTBsyTkp-5YvXZYIUprYln23L968XscDwkWg5I6mj_o9Q-6bfVpLNiOnz5aGI"
+    },
+    {
+      "title": "Submarine Master for tik tok Game - Submarine Star",
+      "appid": "com.playlabs.submarinegametiktok",
+      "developer": "Play Labs Studio",
+      "price": "FREE",
+      "rating": "3.8",
+      "url": "https://play.google.com/store/apps/details?id=com.playlabs.submarinegametiktok",
+      "thumb": "https://play-lh.googleusercontent.com/2FGVVp4G5TNIRaTvEK6A4Sbjbzme7fhttENYXyFuxq1cQ-GstF5SEg-BFeOBO7ocsw"
+    },
+    {
+      "title": "MilkChoco",
+      "appid": "com.gameparadiso.milkchoco",
+      "developer": "GameParadiso",
+      "price": "FREE",
+      "rating": "4.2",
+      "url": "https://play.google.com/store/apps/details?id=com.gameparadiso.milkchoco",
+      "thumb": "https://play-lh.googleusercontent.com/Z5oc0D-Mu170fPZfHykX5KhQgLsFXWbPOPzvg3oi_VjPKjSSpDYHZH4O6peS7SwXpg"
+    }
+  ]
+}

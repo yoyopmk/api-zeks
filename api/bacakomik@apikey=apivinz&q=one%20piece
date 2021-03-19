@@ -1,0 +1,23 @@
+{
+  "status": true,
+  "result": [
+    {
+      "title": "Komik One Piece: Ace Story",
+      "url": "https://bacakomik.co/komik/one-piece-ace-story/",
+      "rating": "8",
+      "thumb": "https://i2.wp.com/bacakomik.co/wp-content/uploads/2020/09/Manga-One-Piece-Ace-Story.jpg"
+    },
+    {
+      "title": "Komik One Piece",
+      "url": "https://bacakomik.co/komik/one-piece/",
+      "rating": "8.98",
+      "thumb": "https://i2.wp.com/bacakomik.co/wp-content/uploads/2019/10/Manga-One-Piece.png"
+    },
+    {
+      "title": "Komik Shokugeki no Sanji",
+      "url": "https://bacakomik.co/komik/shokugeki-no-sanji/",
+      "rating": "6.8",
+      "thumb": "https://i2.wp.com/bacakomik.co/wp-content/uploads/2021/01/Manga-Shokugeki-no-Sanji.jpg"
+    }
+  ]
+}
