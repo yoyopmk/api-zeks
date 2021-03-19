@@ -1,4 +1,4 @@
-# Node.js Authentication and CRUD API
+# ZEKS API JA PRONTO, SÓ PEGAR E FAZER O DEPLOY NO HEROKU 
 Node.js Authentication and CRUD API with Email Verification, Image Upload and Password Reset Using JWT, Passport.js and Sendgrid.
 
 **This Branch** <br/>
