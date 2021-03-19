@@ -2,4 +2,6 @@
 
 # TODOS OS ARQUIVOS ESTÃO CRIPTOGRAFADO ENTÃO TENTE A SORTE PRA MUDAR O NOME DE ALGO😉✔ ;)
 
-# EXEMPLO DA API >> api.zeks.xyz <<
+# EXEMPLO DA API NO LINK ABAIXO
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>api.zeks.xyz<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
